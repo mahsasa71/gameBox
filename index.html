@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    @keyframes moveRight {
+      100% { transform: translate(-2950px); }
+    }
+    @keyframes carTopBottom {
+      0% { transform: translateY(1px); }
+      50% { transform: translateY(2px); }
+      100% { transform: translateY(-1px); }
+    }
+    .moveRight { animation: moveRight 6s linear infinite; }
+    .carTopBottom { animation: carTopBottom 1s linear infinite; }
+    .gift { opacity: 0; transition: top 1s ease, opacity 1s ease; }
+    .gift.show { top: calc(100% - 70px); opacity: 1; }
+  </style>
+</head>
+<body class="m-0 overflow-y-hidden bg-gradient-to-t from-[#2a5298] to-[#1e3c72]">
+
+  <div class="night relative overflow-hidden mx-auto my-20 h-[80vh] w-[70vw] border border-black shadow-[1px_2px_60px_rgba(0,0,0,0.4)] bg-[url('images/Img_1.png')] bg-cover">
+
+
+    <div class="absolute top-10 left-1/2 p-5 -translate-x-1/2 text-white text-xl text-end font-bold drop-shadow-lg"
+         data-aos="fade-down"
+         data-aos-duration="2000">
+    <h1> با  کلید اینتر ماشین را و با کلید اسپیس چراغ را روشن و خاموش کن و انقدر گاز بده تا جعبه ها بیان. بعد روی یکیشون به دلخواه کلیک کن</h1>
+    </div>
+    
+    <div class="surface absolute bottom-0 left-0 block h-[140px] w-[500%] bg-[url('images/Img_02.png')] bg-repeat-x"></div>
+
+    <div class="car absolute bottom-0 left-[24%]">
+      <img src="images/Img_05.png" alt="Car">
+    </div>
+
+    <a href="question.html" class="gift gift1 absolute right-[20%] top-[-100px] w-[70px] h-[70px]">
+      <img src="images/icons8-gift-50.png" 
+           data-aos="fade-down"
+           data-aos-easing="linear"
+           data-aos-duration="1500" 
+           alt="Gift">
+    </a>
+
+    <a href="piano-main/" class="gift gift2 absolute right-[15%] top-[-100px] w-[70px] h-[70px]">
+      <img src="images/icons8-gift-50 (1).png" 
+           data-aos="fade-down"
+           data-aos-easing="linear"
+           data-aos-duration="1500" 
+           alt="Gift">
+    </a>
+
+    <a href="snake-main/" class="gift gift3 absolute right-[10%] top-[-100px] w-[70px] h-[70px]">
+      <img src="images/icons8-gift-50 (2).png" 
+           data-aos="fade-down"
+           data-aos-easing="linear"
+           data-aos-duration="1500" 
+           alt="Gift">
+    </a>
+
+  </div>
+
+  <script src="js/app.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
