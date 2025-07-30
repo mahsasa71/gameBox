@@ -3,3 +3,16 @@
 <img width="1799" height="804" alt="Image" src="https://github.com/user-attachments/assets/a55e2158-3321-43fa-a68a-f08e95ebc911" />
 <img width="1608" height="841" alt="Image" src="https://github.com/user-attachments/assets/86e08a9d-0d6a-49f4-80b2-9aa132128b41" />
 <img width="1738" height="854" alt="Image" src="https://github.com/user-attachments/assets/c7fb0f30-b314-499a-8efd-a89077b4e7cd" />
+- [Demo Project](https://mahsasa71.github.io/gameBox/)
+
+- Developed by Mahsa sahraei
+
+- Created - 2025-07-30
+
+- Technologies Used - tailwind,javascript,particle.js,html,css,typwriter.js
+
+
+
+- Role - Frontend
+
+- How to reach me : with my [instagram](https://www.instagram.com/mahsacodes?igsh=b3o4NXE4d25tYmli) and [linkedin](https://www.linkedin.com/in/mahsa-sahraei-155285320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
