@@ -13,7 +13,7 @@ function createBoard() {
     let row = board.insertRow();
     for (let x = 0; x < cols; x++) {
       let cell = row.insertCell();
-      cell.className = "w-5 h-5 border border-gray-300/30"; // سلول‌ها
+      cell.className = "w-5 h-5 border border-gray-300/30"; 
     }
   }
 }
@@ -25,9 +25,9 @@ function drawBoard() {
     }
   }
   for (let part of snake) {
-    board.rows[part.y].cells[part.x].className = "w-5 h-5 border border-gray-300/30 bg-lime-500"; // مار
+    board.rows[part.y].cells[part.x].className = "w-5 h-5 border border-gray-300/30 bg-lime-500"; 
   }
-  board.rows[food.y].cells[food.x].className = "w-5 h-5 border border-gray-300/30 bg-red-500"; // غذا
+  board.rows[food.y].cells[food.x].className = "w-5 h-5 border border-gray-300/30 bg-red-500"; 
 }
 
 function moveSnake() {
